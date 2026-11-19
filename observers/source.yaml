@@ -1,0 +1,21 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Colour-matching functions: CIE 1931 2-degree, CIE 1964 10-degree, CIE 2012 2-degree and 10-degree"
+origin:
+  - citation: "CIE 15:2004, Colorimetry, 3rd edition; ISO/CIE 11664-1:2019, Colorimetry - Part 1: CIE standard colorimetric observers"
+    doi: null
+  - citation: "CIE 2012 colour-matching functions, from the cone fundamentals of A. Stockman, L. T. Sharpe (2000), as published by the Colour & Vision Research Laboratory"
+    doi: null
+obtained:
+  how: downloaded
+  from: "RIT (5 nm), the tables of CIE 15:2004 (5 nm), CVRL (1 nm, consistent with the checksums of the standard)"
+  url: "http://www.cvrl.org/cie.htm"
+  date: "2018-02-27"
+  note: "see README.md for which values come from where; assert-checksums.py checks them"
+terms:
+  license: CC-BY-SA-4.0 for the CIE 1931 and 1964 observers; none for the CIE 2012 observers (see NOTICE.md)
+  source_statement: "cvrl.org states no license or terms"
+  checked: "2026-11-19"
+  permission: "the CIE's license for the CIE tables; to be clarified with CVRL for the CIE 2012 observers"
+changes:
+  - "converted to JSON"

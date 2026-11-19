@@ -1,0 +1,17 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "132 chromaticity-discrimination ellipses for surface colours, Table III"
+origin:
+  - citation: "M. R. Luo, B. Rigg, Chromaticity-discrimination ellipses for surface colours, Color Res. Appl. 11(1), 25-42 (1986)"
+    doi: "10.1002/col.5080110107"
+obtained:
+  how: transcribed
+  from: "Table III of the article"
+  date: "2018-02-19"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed to JSON and YAML"
+known_issues:
+  - "the article's text and the footnote of Table III disagree on the sign of the exponent of the size factor (Y/30)^0.2; the footnote's factor 1.5 for the figures isn't applied"

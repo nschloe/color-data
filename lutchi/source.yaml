@@ -1,0 +1,19 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "LUTCHI colour appearance data, with the Kuo & Luo and BIT data"
+origin:
+  - citation: "M. R. Luo, P. A. Rhodes, Using the LUTCHI Colour Appearance Data, University of Derby; the experiments were published in Color Res. Appl., see README.md"
+    doi: null
+obtained:
+  how: downloaded
+  from: "website of the University of Derby, through the Internet Archive"
+  url: "https://web.archive.org/web/20031230164218/http://colour.derby.ac.uk:80/colour/info/lutchi/data/"
+  date: "2018-02-19"
+  note: "Mark D. Fairchild also hosts an archive of it, http://markfairchild.org/CAM.html"
+terms:
+  license: none (see NOTICE.md)
+  source_statement: "the archived pages could not be checked here for terms; the copy of their text in README.md states none"
+  checked: "2026-11-19"
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+changes:
+  - "none; the files are as retrieved"

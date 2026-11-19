@@ -1,0 +1,19 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Unique hue settings of 185 observers, 3 sessions, 4 hues, 9 lightness-chroma levels, and their averages"
+origin:
+  - citation: "K. Xiao, S. Wuerger, C. Fu, D. Karatzas, Unique hue data for colour appearance models. Part I: Loci of unique hues and hue uniformity, Color Res. Appl. 36(5), 316-323 (2011)"
+    doi: "10.1002/col.20637"
+obtained:
+  how: e-mail
+  from: "Kaida Xiao"
+  date: "2018-03-05"
+  note: "spreadsheet xiao.xlsx"
+terms:
+  license: none (see NOTICE.md)
+  source_statement: "the article promised publication of the data on the website of the Colour Group (GB)"
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+changes:
+  - "averaged over observers and sessions, converted to JSON and YAML by convert.py"
+known_issues:
+  - "the XYZ values are in cd/m2 ('recorded in CIE XYZ tristimulus values under the unit of cd/m2'), with the white at 114.6 cd/m2; README.md doesn't say so"

@@ -1,0 +1,19 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Constant perceived-hue data, 15 hues"
+origin:
+  - citation: "F. Ebner, M. D. Fairchild, Finding constant hue surfaces in color space, Proc. SPIE 3300 (1998)"
+    doi: "10.1117/12.298269"
+obtained:
+  how: downloaded
+  from: "Mark D. Fairchild's color appearance model page (formerly at RIT)"
+  url: "http://markfairchild.org/CAM.html"
+  date: "2021-01-20"
+  note: "first retrieved from http://www.rit-mcsl.org/fairchild/CAM.html, which is gone; the file says 'Last Updated: Oct. 27, 1997'"
+terms:
+  license: none (see NOTICE.md)
+  source_statement: "no license or terms on the page"
+  checked: "2026-11-19"
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+changes:
+  - "converted from the ASCII file to JSON and YAML"

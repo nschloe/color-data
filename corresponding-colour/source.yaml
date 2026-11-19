@@ -1,0 +1,19 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Corresponding-colour data sets for chromatic adaptation, compiled by M. R. Luo and P. A. Rhodes for CIE TC 1-52"
+origin:
+  - citation: "M. R. Luo, P. A. Rhodes, Corresponding-colour data sets, Colour & Imaging Institute, University of Derby; the original experiments are listed in README.md"
+    doi: null
+obtained:
+  how: downloaded
+  from: "website of the Colour & Imaging Institute, University of Derby, through the Internet Archive"
+  url: "https://web.archive.org/web/20031123133629/http://colour.derby.ac.uk:80/colour/info/catweb/"
+  date: "2018-02-19"
+  note: "CSAJ.da.dat was contributed by Jeff Klein (2020-11-20)"
+terms:
+  license: none (see NOTICE.md)
+  source_statement: "the archived pages could not be checked here for terms; the copy of their text in README.md states none"
+  checked: "2026-11-19"
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+changes:
+  - "converted from the original .dat files (orig-data/) to JSON by orig-data/convert-to-json.py"

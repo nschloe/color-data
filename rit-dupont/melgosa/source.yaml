@@ -1,0 +1,18 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../../LICENSE.md.
+data: "RIT-DuPont color difference data, 312 pairs, part of COMBVD"
+origin:
+  - citation: "R. S. Berns et al., Color Res. Appl. 16(5), 297-316 (1991)"
+    doi: "10.1002/col.5080160505"
+  - citation: "M. Melgosa, R. Huertas, R. S. Berns, Performance of recent advanced color-difference formulas using the standardized residual sum of squares index, J. Opt. Soc. Am. A 25(7), 1828-1834 (2008)"
+    doi: "10.1364/JOSAA.25.001828"
+obtained:
+  how: e-mail
+  from: "Manuel Melgosa (with Mark Fairchild in copy), as part of the COMBVD data"
+  date: "2021-01-20"
+  note: "spreadsheet RIT-DuPont.xlsx"
+terms:
+  license: none (see NOTICE.md)
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+changes:
+  - "converted from RIT-DuPont.xlsx to JSON and YAML by convert.py"

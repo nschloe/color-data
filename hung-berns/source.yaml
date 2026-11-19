@@ -1,0 +1,17 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Constant hue loci on a CRT, Tables I-IV"
+origin:
+  - citation: "P.-C. Hung, R. S. Berns, Determination of constant hue loci for a CRT gamut and their predictions using color appearance spaces, Color Res. Appl. 20(5), 285-295 (1995)"
+    doi: "10.1002/col.5080200506"
+obtained:
+  how: transcribed
+  from: "Tables I-IV of the article, with Tabula"
+  date: "2018-02-19"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed to JSON and YAML"
+known_issues:
+  - "README.md names the files table_1.* etc.; they are table1.* etc."

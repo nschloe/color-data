@@ -1,0 +1,18 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Visual sensitivities to color differences in daylight: Tables I-III (the data of the MacAdam ellipses)"
+origin:
+  - citation: "D. L. MacAdam, Visual sensitivities to color differences in daylight, J. Opt. Soc. Am. 32(5), 247-274 (1942)"
+    doi: "10.1364/JOSA.32.000247"
+obtained:
+  how: transcribed
+  from: "Tables I-III of the article, with Tabula"
+  date: "2018-02-19"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed to JSON and YAML"
+known_issues:
+  - "table3: the row '79 38 39.6 0.387 ... -0.06' has 0.00190 for 0.00150"
+  - "README.md names the files table1.dat etc. and the journal 'Journal of the Optional Society of America'"

@@ -1,0 +1,22 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Munsell renotation data (all.dat, real.dat, 1929.dat) and the Munsell value function (lightness.json)"
+origin:
+  - citation: "S. M. Newhall, D. Nickerson, D. B. Judd, Final report of the O.S.A. subcommittee on the spacing of the Munsell colors, J. Opt. Soc. Am. 33(7), 385-418 (1943)"
+    doi: "10.1364/JOSA.33.000385"
+obtained:
+  how: downloaded
+  from: "Munsell Color Science Laboratory, RIT; lightness.json computed here"
+  url: "https://www.rit.edu/science/munsell-color-science-lab-educational-resources"
+  date: "2018-02-19"
+  note: "first retrieved from https://www.rit.edu/cos/colorscience/rc_munsell_renotation.php; the files are at http://www.rit-mcsl.org/MunsellRenotation/"
+terms:
+  license: none for the renotation files (see NOTICE.md); CC-BY-4.0 for lightness.json
+  source_statement: "the RIT page: 'All come \"as is.\"' and 'If you use this please let us know!'; no license"
+  checked: "2026-11-19"
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md) for the renotation files"
+changes:
+  - "real.dat converted to JSON and YAML"
+  - "lightness.json: the value function of Newhall et al. 1943, computed at V = 0, 0.01, ..., 10"
+known_issues:
+  - "the Y values are relative to magnesium oxide, not to a perfect white (about 2.5% apart)"

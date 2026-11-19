@@ -1,0 +1,15 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Uniform color scales: the 59 tiles and the 128 color differences, Tables I-IV"
+origin:
+  - citation: "D. L. MacAdam, Uniform color scales, J. Opt. Soc. Am. 64(12), 1691-1702 (1974)"
+    doi: "10.1364/JOSA.64.001691"
+obtained:
+  how: transcribed
+  from: "Tables I-IV of the article"
+  date: "2018-02-19"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed to JSON and YAML"

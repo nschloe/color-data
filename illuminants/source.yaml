@@ -1,0 +1,20 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Spectral power distributions of CIE illuminants: C, the components of the D series, F1-F12, FL3.1-FL3.15, HP1-HP5"
+origin:
+  - citation: "CIE 15:2004, Colorimetry, 3rd edition, CIE, Vienna (2004), tables"
+    doi: null
+obtained:
+  how: downloaded
+  from: "the tables of CIE 15:2004, as incorporated by reference in US federal regulations"
+  url: "https://law.resource.org/pub/us/cfr/ibr/003/cie.15.2004.tables.xls"
+  date: "2018-02-27"
+terms:
+  license: CC-BY-SA-4.0
+  source_statement: "the CIE publishes its colorimetric tables under CC BY-SA 4.0"
+  permission: "granted by the license of the CIE; attribution in LICENSE.md"
+changes:
+  - "converted to JSON"
+known_issues:
+  - "more/ (not in the repository) has no recorded source"
+  - "to be replaced by the CIE's official data files, which carry DOIs"

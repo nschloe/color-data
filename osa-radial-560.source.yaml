@@ -1,0 +1,18 @@
+# Provenance of osa-radial-560.yaml: where it comes from, how it got here,
+# under which terms, and what was changed. See LICENSE.md.
+data: "A radial sampling of the OSA uniform color scales, 560 colors (osa-radial-560.yaml)"
+origin:
+  - citation: "N. Moroney, A radial sampling of the OSA uniform color scales, Color and Imaging Conference 2003, 175-180"
+    doi: "10.2352/CIC.2003.11.1.art00031"
+obtained:
+  how: downloaded
+  from: "Nathan Moroney's GitHub repository"
+  url: "https://github.com/NMoroney/public/blob/master/data/osa-radial-560.txt"
+  date: "2018-02-19"
+terms:
+  license: none (see the header of osa-radial-560.yaml)
+  source_statement: "the source repository has no license"
+  checked: "2026-11-19"
+  permission: "none yet; CC BY 4.0 to be requested"
+changes:
+  - "converted to YAML"

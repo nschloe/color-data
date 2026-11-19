@@ -1,0 +1,15 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Chromaticities of optimal colour stimuli for illuminants A, C, D65"
+origin:
+  - citation: "D. L. MacAdam, Maximum visual efficiency of colored materials, J. Opt. Soc. Am. 25(11), 361-367 (1935)"
+    doi: "10.1364/JOSA.25.000361"
+  - citation: "G. Wyszecki, W. S. Stiles, Color Science, 2nd ed., Wiley (2000), Tables I(3.7) and II(3.7)"
+    doi: null
+obtained:
+  how: contributed
+  from: "Thomas Mansencal"
+  date: "2018-02-21"
+terms:
+  license: none (see NOTICE.md)
+  permission: "to be asked of the contributor"

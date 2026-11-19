@@ -1,0 +1,18 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Lightness scaling in high dynamic range, experiments SL1 and SL2, Table I"
+origin:
+  - citation: "M. D. Fairchild, P.-H. Chen, Brightness, lightness, and specifying color in high-dynamic-range scenes and images, Proc. SPIE 7867 (2011)"
+    doi: "10.1117/12.872075"
+obtained:
+  how: transcribed
+  from: "Table I of the article"
+  date: "2021-01-20"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed to JSON and YAML"
+known_issues:
+  - "the XYZ values are in cd/m2, with the paper white at 842.01 cd/m2 (SL1) and 996.98 cd/m2 (SL2); README.md calls them XYZ100"
+  - "SL1 is for the CIE 1964 10-degree observer (X10 Y10 Z10), SL2 for the 1931 2-degree observer"

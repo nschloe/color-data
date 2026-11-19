@@ -1,0 +1,21 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Color appearance reproduction: prints matched on a CRT, 110 colors of four scenes"
+origin:
+  - citation: "M. D. Fairchild, G. M. Johnson, Color-appearance reproduction: Visual data and predictive modeling, Color Res. Appl. 24(2), 121-131 (1999)"
+    doi: "10.1002/(SICI)1520-6378(199904)24:2<121::AID-COL7>3.0.CO;2-I"
+obtained:
+  how: downloaded
+  from: "Mark D. Fairchild's color appearance model page (formerly at RIT)"
+  url: "http://markfairchild.org/CAM.html"
+  date: "2019-09-25"
+  note: "first retrieved from http://www.rit-mcsl.org/fairchild/CAM.html, which is gone; the file says 'Last Updated: Apr. 9, 1998'"
+terms:
+  license: none (see NOTICE.md)
+  source_statement: "no license or terms on the page"
+  checked: "2026-11-19"
+  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+changes:
+  - "converted from the ASCII file to YAML"
+known_issues:
+  - "README.md gives the DOI and the abstract of Ebner & Fairchild 1998 instead of this article"

@@ -1,0 +1,17 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../../LICENSE.md.
+data: "Witt's color difference data, Tables A-I and A-II"
+origin:
+  - citation: "K. Witt, Geometric relations between scales of small colour differences, Color Res. Appl. 24(2), 78-92 (1999)"
+    doi: "10.1002/(SICI)1520-6378(199904)24:2<78::AID-COL3>3.0.CO;2-M"
+obtained:
+  how: transcribed
+  from: "Tables A-I and A-II of the article"
+  date: "2021-01-20"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed to JSON and YAML"
+known_issues:
+  - "Table A-I has Y10 = 32.93 for yellow center 8; the correct value is 69.62 (Oleari, Melgosa, Huertas 2009, doi:10.1364/JOSAA.26.000121), see ../README.md"

@@ -1,0 +1,15 @@
+# Provenance of the data in this directory: where it comes from, how it got
+# here, under which terms, and what was changed. See ../LICENSE.md.
+data: "Uniform chromaticity scale data, Tables 4 and 5"
+origin:
+  - citation: "C. Alder, K. P. Chaing, T. F. Chong, E. Coates, A. A. Khalili, B. Rigg, Uniform Chromaticity Scales - New Experimental Data, J. Soc. Dyers Colour. 98, 14-20 (1982)"
+    doi: "10.1111/j.1478-4408.1982.tb03602.x"
+obtained:
+  how: transcribed
+  from: "Tables 4 and 5 of the article"
+  date: "2018-02-19"
+terms:
+  license: CC-BY-4.0
+  permission: "not needed: facts transcribed from the published article"
+changes:
+  - "transcribed as plain-text tables (table4.dat, table5.dat)"
