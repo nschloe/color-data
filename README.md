@@ -1,3 +1,11 @@
+## License
+
+The data comes from many sources, and its licenses differ: data transcribed
+from published articles is CC BY 4.0, the CIE tables are CC BY-SA 4.0, the
+scripts are MIT, and some data isn't licensed yet. See [`LICENSE.md`](LICENSE.md),
+which lists them, and the `LICENSE.md` or `NOTICE.md` of a directory where it
+differs.
+
 ## Missing data
 
 - Yue Qiao, Roy S. Berns, Lisa Reniff, Ethan Montag,
