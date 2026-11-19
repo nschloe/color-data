@@ -13,6 +13,6 @@ obtained:
   note: "spreadsheet BFD-P.xlsx"
 terms:
   license: none (see NOTICE.md)
-  permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md)"
+  permission: "CC BY 4.0 requested from Manuel Melgosa (Roy Berns in cc) and from M. Ronnier Luo on 2026-11-19; no answer yet"
 changes:
   - "converted from BFD-P.xlsx to JSON and YAML by convert.py, split into the three subsets, each with its own reference white"

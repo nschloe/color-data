@@ -17,6 +17,7 @@ terms:
   permission: "none yet; CC BY 4.0 to be requested (see NOTICE.md) for the renotation files"
 changes:
   - "real.dat converted to JSON and YAML"
+  - "2026-11-19: the first color of real.dat, 10RP 1/2, added to real.json and real.yaml, where it was missing"
   - "lightness.json: the value function of Newhall et al. 1943, computed at V = 0, 0.01, ..., 10"
 known_issues:
   - "the Y values are relative to magnesium oxide, not to a perfect white (about 2.5% apart)"

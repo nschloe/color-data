@@ -15,6 +15,7 @@ terms:
   permission: "granted by the license of the CIE; attribution in LICENSE.md"
 changes:
   - "converted to JSON"
+  - "2026-11-19: f11.json, 425 nm: 3.38 corrected to 3.33; all illuminants checked against the CIE data tables of CIE 015:2018 (doi:10.25039/CIE.DS.ukaymjdn, CIE.DS.mjdd2enu, CIE.DS.w7zunnny)"
 known_issues:
   - "more/ (not in the repository) has no recorded source"
   - "to be replaced by the CIE's official data files, which carry DOIs"

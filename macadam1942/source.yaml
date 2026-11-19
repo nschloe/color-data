@@ -13,6 +13,6 @@ terms:
   permission: "not needed: facts transcribed from the published article"
 changes:
   - "transcribed to JSON and YAML"
+  - "2026-11-19: table3, row 79 38 39.6 0.387 -0.06: 0.00190 corrected to 0.00150, as in the article"
 known_issues:
-  - "table3: the row '79 38 39.6 0.387 ... -0.06' has 0.00190 for 0.00150"
   - "README.md names the files table1.dat etc. and the journal 'Journal of the Optional Society of America'"
